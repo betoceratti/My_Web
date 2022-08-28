@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roberto_Ceratti</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">    
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Goldman:wght@400;700&family=Inconsolata:wght@300&family=Montserrat:ital,wght@1,300&family=Orbitron:wght@500&family=Rubik:ital,wght@1,300&family=Space+Mono:ital@1&family=Teko:wght@500&family=Turret+Road:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Oswald&display=swap" rel="stylesheet">	
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.css">
+    <link rel="stylesheet" href="index_ceratti.css">
+    <link rel="short icon" href="../img/Herramientas/logo-sofoficce.png" type="image/x-icon">
+</head>
+<body>
+
+<nav class="nav">
+    <div class="rdes">
+        <a href="#">FACEBOOK</a>
+        <a href="#">INSTAGRAM</a>
+    </div>
+    <div class="logo">
+        <h2 class="nav-name">Roberto</h2>
+        <span class="apellido">Ceratti</span>
+    </div>
+
+    <div class="menu" id="menu">
+        <div class="click-menu" id="btn">
+            <p> <i class="fas fa-align-right"></i>
+            </p>
+           
+        </div>
+
+    <div class="paint">
+        <div class="paint-textos">
+            <h1 class="paint-tittle">Roberto Ceratti</h1>
+            <h2 class="paint-tittle transform">Web Designer</h2>
+            <ul>
+                <li><a href="#">Wildlife</a></li>
+                <li><a href="#">Nature</a></li>
+                <li><a href="#">Pets</a></li>
+            </ul>
+        </div>   
+    
+</div>
+        
+      
+    </div> <!--Termina el menu-->
+    
+</nav>    
+
+
+     <header class=" hero" id="hero">
+        <div class="texto-hero">
+            <h3>ROBERTO CERATTI</h3>
+            <span class="profesion">DEVELOPER</span>
+         </div>
+       
+        
+        <div class="arrow-down">
+            <a href="#hero-dos"><i class="fas fa-long-arrow-alt-down"></i></a>
+        </div>
+      
+        </header>
+
+<!-- ++++++++++++++++++++++++++++ -->
+     <main class=" hero dos" id="hero-dos">
+         <div class="text-center">
+             <h1 class="tittle">DISEÑO.</h1>
+         </div>
+     </main>
+<!-- ++++++++++++++++++++++++++++ -->
+     <article class=" hero tres">
+        <div class="text-center">
+            <h1 class="tittle">VANGUARDIA.</h1>
+        </div>
+     </article>
+     <!-- ++++++++++++++++++++++++++++ -->
+     <article class=" hero cuatro">
+        <div class="text-center">
+            <h1 class="tittle">TECNOLOGIA.</h1>
+        </div>
+     </article>
+ <!-- ++++++++++++++++++++++++++++ -->
+
+<article class="hero cinco">
+    <div class="contenedor">
+        <div class="slider">
+            <ul>
+                <li><img src="../img/arquitectura/building-1989816_1920.jpg" alt=""></li>
+                <li><img src="../img/arquitectura/skyscrapers-1081737_1920.jpg" alt=""></li>
+                <li><img src="../img/arquitectura/surface-945444_1920.jpg" alt=""></li>
+                <li><img src="../img/arquitectura/skyscraper-1149478_1920.jpg" alt=""></li>
+            </ul>
+        </div>
+    </div>
+</article>
+
+
+ <!-- ++++++++++++++++++++++++++++ -->
+     <footer class="footer">
+        
+            <div class=" white">
+                <h2 class="nav-name">Roberto</h2>
+                <span class="apellido">Ceratti</span>
+            </div>
+
+            <div class="redes">
+                <a href="#">HOMES</a>
+                <a href="#">BUILD</a>
+                <a href="#">OFICCE</a>
+            </div>
+            
+            <div class="copy_rigth">
+                <h3>All Rights Reserved © 2020</h3>
+            </div>
+        
+         <div class="arrow-up"> 
+            <a href="#hero"><i class="fas fa-arrow-up"></i></a>
+        </div>
+      
+     </footer>
+    
+
+<!-- CODIGO TYPED , AOS FULL-PAGE -->
+<!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script> -->
+   <!--+++++++++++++++++++++  -->
+
+<script>
+
+let btn = document.getElementById('btn');
+let menu = document.getElementById('menu');
+let paint = document.querySelector('.paint');
+let textos = document.querySelector('.paint-textos');
+
+// alert(textos.textContent);
+
+btn.addEventListener('click',()=>{
+
+    menu.classList.toggle('active');
+    textos.classList.toggle('active');
+    paint.classList.toggle('active');
+});
+
+</script>   
+</body>
+</html>
